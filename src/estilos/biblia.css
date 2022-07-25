@@ -1,0 +1,34 @@
+.contenedor-biblia{
+display: flex;
+margin-left: 20px;
+height: 550px;
+}
+.contenedor-numero-texto{
+    display: flex;
+    flex-direction:column-reverse ;
+    width: 100%;
+}
+.contenedor-capitulo{
+    color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    
+}
+.numero{
+    list-style: none;
+    border: 2px solid blue; 
+    padding: 10px;
+    height: 60px;
+    margin: 3px;
+}
+.contenedor-texto{
+    width: 100%;
+    height: 530px;
+    box-sizing: border-box;
+    overflow: scroll;
+    padding: 5px;
+}
+.numero:hover{
+    background-color: rgb(136, 136, 238);
+}

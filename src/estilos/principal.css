@@ -1,0 +1,23 @@
+.contenedor-principal{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.btn-borde {
+    text-decoration: none;
+    z-index: 8;
+    font-size: 18px;
+    margin-top: 30px;
+    padding: 10px 40px;
+    border: 1px solid #007bff;
+    border-radius: .25rem;
+    color: #007bff;
+    transition: color .15s ease-in-out,
+  }
+  
+  .btn-borde:hover, .btn-borde:active, .btn-borde:focus {
+    color: white;
+    background: #007bff;
+  }
+  
