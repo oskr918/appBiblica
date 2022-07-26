@@ -3,8 +3,8 @@ import './estilos/menu.css'
 import './estilos/principal.css'
 import './estilos/biblia.css'
 import Menu from './componentes/menu';
-import Baground from './baground';
-import './estilos/baground.css'
+import Baground from './bakground';
+import './estilos/bakground.css'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Biblia from './paginas/Biblia';
 
